@@ -1,0 +1,19 @@
+ git常用使用记录
+
+ git config --global user.name xxx  设置名字
+ git config --global user.email xxx 设置邮箱 
+ 这两条命名主要用于 刚装完git时设置
+ 
+ git常用命令
+ 
+ git add 添加修改或者新增的文件
+ git commit 提交修改和新增 一般就是用于提交到本地仓库
+
+ git push 用于往远程服务器上 推送我们的线上项目
+
+ git remote add  别名  远程地址 //给远程地址添加别名 这样就不用每次都输入很长的提交地址了
+
+
+	 
+
+ 
