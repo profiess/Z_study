@@ -2,7 +2,7 @@
 
  git config --global user.name xxx  设置名字
  git config --global user.email xxx 设置邮箱 
- 这两条命名主要用于 刚装完git时设置
+ 装完后需要设置一下用户名和邮箱
  
  git常用命令
  
