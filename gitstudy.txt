@@ -1,26 +1,29 @@
- gitѧϰ��¼
+ git学习记录
 
- git config --global user.name xxx  ��������
- git config --global user.email xxx �������� 
- װ�����Ҫ����һ���û���������
+ git config --global user.name xxx  设置名字
+ git config --global user.email xxx 设置邮箱 
+ 装完后需要设置一下用户名和邮箱
  
- ####git��������
- git status		 												#�鿴�ļ�״̬
- git add (�ļ������ļ�������.��ʾ��ǰ�µ������ļ��ݹ�)		 	#�����޸Ļ����������ļ�
- git commit	 -m ��ע�͡�	 										#�ύ�޸ĺ����� һ����������ύ�����زֿ�
- git push ��ַ		 											#����Ŀ���͵���ַ���ڲֿ�
- git remote add  ����  Զ�̵�ַ 								#��Զ�̵�ַ���ӱ��� �����Ͳ���ÿ�ζ�����ܳ����ύ��ַ��
- git pull 	������/Զ�̵�ַ�� 									#��ȡ����
+ ####git常用命令
+ git status		 												#查看文件状态
+ git add (文件名，文件夹名，.表示当前下的所有文件递归)		 	#添加修改或者新增的文件
+ git commit	 -m “注释”	 										#提交修改和新增 一般就是用于提交到本地仓库
+ git push 地址		 											#将项目推送到地址所在仓库
+ git remote add  别名  远程地址 								#给远程地址添加别名 这样就不用每次都输入很长的提交地址了
+ git pull 	（别名/远程地址） 									#拉取代码
  
- #### git ��־
- git log 					#�鿴��Ŀ��־
- git log file               #�鿴�ļ���־
- git log .					#�鿴��ǰĿ¼��־
- git log --pretty=oneline 	#����ʽ��ʾ������
- git reflog 				#�汾��1 2 3 4 5 6 �����ʱ�ع���4�� ����������������� �ǲ鲻�� 5 6��
+ #### git 日志
+ git log 					#查看项目日志
+ git log file               #查看文件日志
+ git log .					#查看当前目录日志
+ git log --pretty=oneline 	#带格式显示更清晰
+ git reflog 				#版本号1 2 3 4 5 6 如果此时回滚到4后 再用上面的两个命令 是查不到 5 6的
  
- ###  git ��֧
- 
+ ###  git 分支 branch
+  git branch 						#查看分支
+  git branch 分支名  				#创建分支
+  git checkout 分支名				#切换分支
+	这是在git 分支下的修改
 
 	 
 
