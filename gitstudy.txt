@@ -9,7 +9,6 @@
  git add (文件名，文件夹名，.表示当前下的所有文件递归)		 	#添加修改或者新增的文件
  git commit	 -m “注释”	 										#提交修改和新增 一般就是用于提交到本地仓库
  git push 地址		 											#将项目推送到地址所在仓库
- git remote add  别名  远程地址 								#给远程地址添加别名 这样就不用每次都输入很长的提交地址了
  git pull 	（别名/远程地址） 									#拉取代码
  
  #### git 日志
@@ -28,6 +27,18 @@
   git checkout master 				#切换到master 分支
   git merge git 					#将git分支合并到master
   git branch -d 分支名  			#删除分支
+
+  远程仓库（git是分布式的 远程仓库 不是服务器 主要是方便协同开发用 并不是代码中心服务器）
+  git push origin master 
+  origin 表示远程地址别名
+  master 表示需要推送的分支
+  这两个都是默认名称
+
+  git remote -v 					#查看远程地址和别名
+  git remote remove	地址别名 		#删除远程地址别名
+  git remote add  别名  远程地址 	#给远程地址添加别名 这样就不用每次都输入很长的提交地址了
+
+
 
 
 
