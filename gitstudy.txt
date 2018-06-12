@@ -23,7 +23,8 @@
   git branch 						#查看分支
   git branch 分支名  				#创建分支
   git checkout 分支名				#切换分支
-	这是在git 分支下的修改
+  
+	
 
 	 
 
